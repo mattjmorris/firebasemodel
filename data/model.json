@@ -1,0 +1,170 @@
+{
+  "users": {
+	"userId1": {
+	  "username": "blah",
+	  "workouts": {
+		"workoutId1": true
+	  }
+	},
+	"userId2": {
+	  "username": "blee"
+	}
+  },
+  "workouts": {
+	"generatedWorkoutId1": {
+	  "date": "2014-11-01",
+	  "name": null,
+	  "description": null,
+	  "tags": [],
+	  "components": {
+		"generatedComponentId1": {
+		  "name": "Strength",
+		  "metadata": {
+			"description": "squats, alternating with pull-ups",
+			"record": "sets",
+			"rounds": 1,
+			"sets": [
+			  {
+				"exercise": "squats",
+				"reps": 6,
+				"1RMPercent": 50
+			  },
+			  {
+				"exercise": "pull-ups",
+				"reps": "max",
+				"modifiers": [
+				  "chest to bar",
+				  "strict"
+				]
+			  },
+			  {
+				"exercise": "squats",
+				"reps": 6,
+				"1RMPercent": 60
+			  },
+			  {
+				"exercise": "pull-ups",
+				"reps": "max"
+			  }
+			]
+		  },
+		  "athleteData": {
+			"userId1": [
+			  {
+				"timestamp": "2014-11-01T12:05:00-06:00",
+				"reps": 6,
+				"weight": 135,
+				"1RMPercent": 50
+			  },
+			  {
+				"timestamp": "2014-11-01T12:05:00-06:00",
+				"reps": 12
+			  },
+			  {
+				"timestamp": "2014-11-01T12:05:00-06:00",
+				"reps": 6,
+				"weight": 155,
+				"1RMPercent": 60
+			  },
+			  {
+				"timestamp": "2014-11-01T12:05:00-06:00",
+				"exercise": "pull-ups",
+				"reps": 15
+			  }
+			],
+			"userId2": [
+			  {
+				"timestamp": "2014-11-01T12:05:00-06:00",
+				"reps": 5,
+				"weight": 120,
+				"1RMPercent": 52
+			  },
+			  {
+				"timestamp": "2014-11-01T12:05:00-06:00",
+				"reps": 6
+			  },
+			  {
+				"timestamp": "2014-11-01T12:05:00-06:00",
+				"reps": 6,
+				"weight": 130,
+				"1RMPercent": 64
+			  },
+			  {
+				"timestamp": "2014-11-01T12:05:00-06:00",
+				"exercise": "pull-ups",
+				"reps": 8
+			  }
+			]
+		  }
+		},
+		"generatedComponentId2": {
+		  "name": "metcon",
+		  "metadata": {
+			"secs": 720,
+			"rounds": "max",
+			"record": "rounds",
+			"sets": [
+			  {
+				"exercise": "pull-ups",
+				"reps": 5
+			  },
+			  {
+				"exercise": "push-ups",
+				"reps": 10
+			  },
+			  {
+				"exercise": "squats",
+				"reps": 15
+			  }
+			]
+		  },
+		  "athleteData": {
+			"userId1": [
+			  {
+				"timestamp": "2014-11-01T12:05:00-06:00",
+				"secs": 20,
+				"cumSecs": 20
+			  },
+			  {
+				"timestamp": "2014-11-01T12:05:00-06:00",
+				"secs": 30,
+				"cumSecs": 50
+			  }
+			],
+			"userId2": [
+			  {
+				"timestamp": "2014-11-01T12:05:00-06:00",
+				"secs": 20,
+				"cumSecs": 20
+			  },
+			  {
+				"timestamp": "2014-11-01T12:05:00-06:00",
+				"secs": 30,
+				"cumSecs": 50
+			  }
+			]
+		  }
+		}
+	  },
+	  "coaches": {
+		"userId3": "2014-11-01T12:05:00-06:00"
+	  },
+	  "athletes": {
+		"userId1": {
+		  "generatedComponentId1": {
+			"start": "2014-11-01T12:05:00-06:00",
+			"results": "Rx"
+		  },
+		  "generatedComponentId2": {
+			"start": "2014-11-01T12:05:00-06:00",
+			"results": {
+			  "rounds": 7,
+			  "plus": 5,
+			  "Rx": true
+			}
+		  }
+		}
+	  }
+	}
+  }
+}

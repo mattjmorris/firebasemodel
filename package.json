@@ -1,0 +1,17 @@
+{
+  "name": "firebasemodel",
+  "version": "1.0.0",
+  "description": "firebase model",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt J. Morris",
+  "dependencies": {
+    "coffee-script": "^1.8.0",
+    "firebase": "^1.1.3",
+    "gulp": "^3.8.9",
+    "moment": "^2.8.3",
+    "q": "^1.0.1"
+  }
+}
